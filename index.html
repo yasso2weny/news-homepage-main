@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+  <!-- JS File -->
+  <script src="script.js"></script>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <nav id="nav-bar">
+    <picture><img src="assets/images/logo.svg" alt="logo"></picture>
+      <div id="nav-bar-content">
+        <a href="">Home</a>
+        <a href="">New</a>
+        <a href="">Popular</a>
+        <a href="">Trending</a>
+        <a href="">Categories</a>
+      </div>
+  </nav>
+
+<!-- Mobile Hamburger Menu -->
+<nav id="mobile-navbar-container">
+
+  <div id="mobile-navbar">
+
+    <picture><img src="assets/images/logo.svg" alt="logo"></picture>
+
+    <div id="mobile-navbar-lines">
+      <div class="hbm-line"></div>
+      <div class="hbm-line"></div>
+      <div class="hbm-line"></div>
+  </div>
+
+  </div>
+
+  <div id="hbm-wrapper">
+    <div id="hbm-container">
+      <div id="close-hbm-wrapper">
+        <div class="close-hbm-wrapper-line"></div>
+      </div>
+      <div id="links">
+        <a href="">Home</a>
+        <a href="">New</a>
+        <a href="">Popular</a>
+        <a href="">Trending</a>
+        <a href="">Categories</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+  <main id="grid-container">
+
+    <section id="item1"></section>
+
+    <section id="item2">
+      <h1 id="title">The Bright Future of Web 3.0?</h1>
+    </section>
+
+    <section id="item3">
+      <p class="paragraph"
+      >
+        We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
+        But is it really fulfilling its promise?
+      </p>
+      <button id="item3-btn">Read more</button>
+    </section>
+
+    <section id="item4">
+      <h1 id="item4-title">New</h1>
+      <h2 class="item4-topic">Hydrogen VS Electric Cars</h2>
+      <p class="paragraph">Will hydrogen-fueled cars ever catch up to EVs?</p>
+      <hr>
+      <h2 class="item4-topic">The Downsides of AI Artistry</h2>
+      <p class="paragraph">What are the possible adverse effects of on-demand AI image generation?</p>
+      <hr>
+      <h2 class="item4-topic">Is VC Funding Drying Up?</h2>
+      <p class="paragraph">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+    </section>
+
+    <section id="item5" class="footer-container">
+      <picture><img src="assets/images/image-retro-pcs.jpg" alt="image-retro-pcs"></picture>
+      <div class="footer-content">
+        <h1 class="fc-num-title">01</h1>
+        <h2 class="fc-title">Reviving Retro PCs</h2>
+        <p class="paragraph">What happens when old PCs are given modern upgrades?</p>
+      </div>
+    </section>
+
+    <section id="item6" class="footer-container">
+      <picture><img src="assets/images/image-top-laptops.jpg" alt="image-top-laptops"></picture>
+      <div class="footer-content">
+        <h1 class="fc-num-title">02</h1>
+        <h2 class="fc-title">Top 10 Laptops of 2022</h2>
+        <p class="paragraph">Our best picks for various needs and budgets.</p>
+      </div>
+    </section>
+
+    <section id="item7" class="footer-container">
+      <picture><img src="assets/images/image-gaming-growth.jpg" alt="image-gaming-growth"></picture>
+      <div class="footer-content">
+        <h1 class="fc-num-title">03</h1>
+        <h2 class="fc-title">The Growth of Gaming</h2>
+        <p class="paragraph">How the pandemic has sparked fresh opportunities.</p>
+      </div>
+    </section>
+    
+  </main>
+  
+</body>
+</html>
